@@ -1,37 +1,58 @@
 .content-container {
-
+  padding: 50px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .profile-image-container {
-
+  border-radius: 50%;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
 }
 
 .profile-image {
-
+  height: 200px;
 }
 
 .intro-container {
-
+  text-align: center;
+  width: 100%;
+  margin-bottom: 60px;
 }
 
 .intro-header {
-
+  font-weight: 700;
+  font-size: 2em;
+  margin: 10px 0 15px 0;
 }
 
 .intro-description {
-
+  font-size: 1.3em;
+  font-weight: 300;
+  line-height: 1.7em;
+  margin: 0 auto 10px;
+  width: 95%;
 }
 
 .work-samples-container {
-
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
 }
 
 .work-sample-item {
-
+  margin-bottom: 35px;
+  width: 100%;
 }
 
 .work-sample-image {
-
+  width: 100%;
+  margin-bottom: 15px;
 }
 
 .work-sample-header {
@@ -44,4 +65,18 @@
 
 .work-sanple-description {
 
+}
+
+@media (min-width: 768px) {
+  .work-sample-item {
+    padding: 0 15px;
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .work-sample-item {
+    padding: 0 15px;
+    width: 33%;
+  }
 }

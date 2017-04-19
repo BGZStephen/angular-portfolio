@@ -28,7 +28,7 @@
 .navbar-list {
   background: #336699;
   border-top: 2px solid #4792A2;
-  font-size: 1.3em;
+  font-size: 1em;
   list-style: none;
   margin-right: 15px;
   opacity: 0;
@@ -75,11 +75,9 @@
   }
 
   .navbar-item {
+    font-size: 1.3em;
     padding: 20px 10px;
     width: auto;
-  }
-
-  .logo-container {
   }
 
   .menu-toggle {
