@@ -50,9 +50,14 @@
   width: 100%;
 }
 
+.work-sample-image-container {
+  max-width: 320px;
+  overflow: hidden;
+}
+
 .work-sample-image {
-  width: 100%;
   margin-bottom: 15px;
+  width: 100%;
 }
 
 .work-sample-header {
