@@ -1,0 +1,21 @@
+[
+  {
+    "name": "ngWarcraft Angular Application",
+    "description": "A Warcraft themed web application, built using Angular 4 + custom pipes, HTML 5 / CSS 3 (custom carousel), OO JS. Users can check things such as realm status, current PVP leaderboards as well as the latest news.",
+    "url": "work-samples/ng-warcraft/index.html",
+    "imgUrl": "/assets/angular-portfolio/images/work-samples/ng-warcraft.png",
+    "githubUrl": "https://github.com/BGZStephen/ng-gaming"
+  },{
+    "name": "ngGaming Angular Application",
+    "description": "A web application built using Angular 4.0, displays the latest games from a range of genres, blog articles, reviews, youtube videos & screenshots. Additionally, users can search the 21,000 item database",
+    "url": "work-samples/nggaming/index.html",
+    "imgUrl": "/assets/angular-portfolio/images/work-samples/ng-gaming.png",
+    "githubUrl": "https://github.com/BGZStephen/ng-Warcraft"
+  },{
+    "name": "Illdy Theme",
+    "description": "A clean, responsive front-end, built from the ground up with HTML 5, CSS 3, Sass jQuery (Slick carousel / smooth scrolling).",
+    "url": "work-samples/illdy/index.html",
+    "imgUrl": "/assets/angular-portfolio/images/work-samples/illdy-theme.png",
+    "githubUrl": "https://github.com/BGZStephen/illdy-theme"
+  }
+]

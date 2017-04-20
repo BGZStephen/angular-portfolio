@@ -1,0 +1,13 @@
+<div class="content-container">
+  <div class="code-lab-container">
+    <h2 class="code-lab-header">Code Lab</h2>
+    <p class="code-lab-description">Welcome to my Code Lab, Below you'll find small apps and projects that I've been working on, mainly to improve my JavaScript skills (Angular / Node / React / OO)</p>
+    <div class="code-lab-item" *ngFor="let example of codeLabResults">
+      <div class="code-lab-image-container">
+        <img class="code-lab-image" src="{{example.imgUrl}}">
+      </div>
+      <h3 class="code-lab-item-header">{{example.name}}</h3>
+      <p class="code-lab-item-description">{{example.description}}</p>
+    </div>
+  </div>
+</div>

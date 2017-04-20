@@ -1,0 +1,57 @@
+.content-container {
+  width: 100%;
+}
+
+.code-lab-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 60px 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.code-lab-header {
+  font-weight: 700;
+  font-size: 2em;
+  width: 100%;
+}
+
+.code-lab-description {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.code-lab-item {
+  text-align: center;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.code-lab-image-container {
+  width: 100%;
+}
+
+.code-lab-image {
+  width: 100%;
+}
+
+.code-lab-item-header {
+  color: #369;
+  margin: 15px 0;
+}
+
+.code-lab-item-description {
+  line-height: 1.4;
+  margin: 5px 0;
+  padding: 0 5px;
+}
+
+@media (min-width: 768px) {
+  .code-lab-item {
+    padding: 0px 10px;
+    width: 33%;
+  }
+}
