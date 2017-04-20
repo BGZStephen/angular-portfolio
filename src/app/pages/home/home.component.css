@@ -51,8 +51,7 @@
 }
 
 .work-sample-image-container {
-  max-width: 320px;
-  overflow: hidden;
+  width: 100%;
 }
 
 .work-sample-image {
@@ -74,14 +73,13 @@
 
 @media (min-width: 768px) {
   .work-sample-item {
-    padding: 0 15px;
+    padding: 0 10px;
     width: 50%;
   }
 }
 
 @media (min-width: 1024px) {
   .work-sample-item {
-    padding: 0 15px;
     width: 33%;
   }
 }
