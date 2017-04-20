@@ -4,11 +4,11 @@
       <h1 class="logo">ng-Stephen</h1>
     </div>
     <ul class="navbar-list" (window:resize)="menuToggle('resize')" [ngStyle]="menuToggle()">
-      <li class="navbar-item"><a class="navbar-link">Home</a></li>
-      <li class="navbar-item"><a class="navbar-link">Work Samples</a></li>
-      <li class="navbar-item"><a class="navbar-link">Code Lab</a></li>
+      <li class="navbar-item"><a class="navbar-link" [routerLink]="['']">Home</a></li>
+      <li class="navbar-item"><a class="navbar-link" [routerLink]="['work-samples']">Work Samples</a></li>
+      <li class="navbar-item"><a class="navbar-link" [routerLink]="['code-lab']">Code Lab</a></li>
       <!-- <li class="navbar-item"><a class="navbar-link">Blog</a></li> -->
-      <li class="navbar-item"><a class="navbar-link">Contact</a></li>
+      <li class="navbar-item"><a class="navbar-link" [routerLink]="['contact']">Contact</a></li>
     </ul>
     <a class="fa fa-bars menu-toggle" (click)="showMenu = !showMenu"></a>
   </div>

@@ -1,0 +1,13 @@
+<div class="content-container">
+  <div class="work-samples-container">
+    <h2 class="work-samples-header">Work Samples</h2>
+    <p class="work-samples-description">Welcome to my work samples, below you'll find a selection of my work including links to live sites / apps as well as github links to their corresponding repos.</p>
+    <div class="work-samples-item" *ngFor="let example of workSameplsResults">
+      <div class="work-samples-image-container">
+        <img class="work-samples-image" src="{{example.imgUrl}}">
+      </div>
+      <h3 class="work-samples-item-header">{{example.name}}</h3>
+      <p class="work-samples-item-description">{{example.description}}</p>
+    </div>
+  </div>
+</div>
