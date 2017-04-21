@@ -4,10 +4,13 @@
     <p class="work-samples-description">Welcome to my work samples, below you'll find a selection of my work including links to live sites / apps as well as github links to their corresponding repos.</p>
     <div class="work-samples-item" *ngFor="let example of workSameplsResults">
       <div class="work-samples-image-container">
-        <img class="work-samples-image" src="{{example.imgUrl}}">
+        <a href="{{example.url}}" target="_blank"><img class="work-samples-image" src="{{example.imgUrl}}"></a>
       </div>
-      <h3 class="work-samples-item-header">{{example.name}}</h3>
+      <a href="{{example.url}}" target="_blank"><h3 class="work-samples-item-header">{{example.name}}</h3></a>
       <p class="work-samples-item-description">{{example.description}}</p>
+      <div class="work-sample-links-container">
+        <a href="{{example.githubUrl}}" target="_blank" class="fa fa-github fa-2x work-link"></a><a href="{{example.url}}" target="_blank" class="fa fa-link fa-2x work-link"></a>
+      </div>
     </div>
   </div>
 </div>

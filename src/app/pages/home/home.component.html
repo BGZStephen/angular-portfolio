@@ -9,31 +9,14 @@
     <p class="intro-description">You can reach me on stephen@stephenwright.co.uk if you have any questions.</p>
   </div>
   <div class="work-samples-container">
-    <div class="work-sample-item">
+    <div class="work-sample-item" *ngFor="let example of workSameplsResults | slice:0:3">
       <div class="work-sample-image-container">
-        <img class="work-sample-image" src="/assets/angular-portfolio/images/work-samples/ng-warcraft.png">
+        <a href="{{example.url}}" target="_blank"><img class="work-sample-image" src="{{example.imgUrl}}"></a>
       </div>
-      <h3 class="work-sample-header">ng-Warcraft</h3>
-      <div class="work-sample-overlay">
-        <p class="work-sanple-description"></p>
-      </div>
-    </div>
-    <div class="work-sample-item">
-      <div class="work-sample-image-container">
-        <img class="work-sample-image" src="/assets/angular-portfolio/images/work-samples/ng-gaming.png">
-      </div>
-      <h3 class="work-sample-header">ng-Gaming</h3>
-      <div class="work-sample-overlay">
-        <p class="work-sanple-description"></p>
-      </div>
-    </div>
-    <div class="work-sample-item">
-      <div class="work-sample-image-container">
-        <img class="work-sample-image" src="/assets/angular-portfolio/images/work-samples/illdy-theme.png">
-      </div>
-      <h3 class="work-sample-header">Illdy</h3>
-      <div class="work-sample-overlay">
-        <p class="work-sanple-description"></p>
+      <a href="{{example.url}}" target="_blank"><h3 class="work-sample-header">{{example.name}}</h3></a>
+      <p class="work-sanple-description">{{example.description}}</p>
+      <div class="work-sample-links-container">
+        <a href="{{example.githubUrl}}" target="_blank" class="fa fa-github fa-2x work-link"></a><a href="{{example.url}}" target="_blank" class="fa fa-link fa-2x work-link"></a>
       </div>
     </div>
   </div>

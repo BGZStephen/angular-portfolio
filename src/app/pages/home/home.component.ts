@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Http } from "@angular/http"
 
 @Component({
   selector: 'app-home',
@@ -7,7 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  workSameplsResults: Array<object>
+
+  constructor(private http: Http) {
+    this.http.get("/assets/angular-portfolio/data-sources/work-samples.json")
+    .subscribe(res => {
+      this.workSameplsResults = res.json()
+    })
+  }
 
   ngOnInit() {
   }

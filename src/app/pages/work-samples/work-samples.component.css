@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .content-container {
   width: 100%;
 }
@@ -47,6 +51,12 @@
   line-height: 1.4;
   margin: 5px 0;
   padding: 0 5px;
+}
+
+.work-link {
+  color: #369;
+  padding: 20px 25px;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
