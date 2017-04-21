@@ -28,7 +28,7 @@ import { ContactComponent } from './pages/contact/contact.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    router
+    router,
   ],
   providers: [],
   bootstrap: [AppComponent]
